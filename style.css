@@ -1,0 +1,199 @@
+@font-face {
+    font-family: Product Sans;
+    src: url(/font/Product\ Sans\ Regular.ttf);
+}
+@font-face {
+    font-family: Product Sans Bold;
+    src: url(/font/Product\ Sans\ Bold.ttf);
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:Product Sans ;
+}
+html,body{
+    height: 100%;
+    width:100vw;
+}
+body{
+    overflow-x: hidden;
+}
+#main{
+    width:100%;
+    height:100vh;
+}
+nav{
+    width: 100%;
+    height: 10vh;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0vw 10vw;
+    position: fixed;
+    z-index: 99;
+    
+}
+nav a{
+    text-decoration: none;
+    font-size: 1vw;
+    color: #fff;
+}
+.cntr-nav{
+    display: flex;
+    gap: 3vw;
+}
+nav i{
+    font-size: 1.5vw;
+    color: #fff;
+}
+
+
+.one{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background:linear-gradient(150deg, rgb(255, 166, 0), rgb(255, 94, 0));
+}
+#fanta{
+    width: 40%;
+    z-index: 2;
+    position: absolute;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1)0.5s;
+}
+.one h1{
+    font-size: 25vw;
+    font-family: Product Sans Bold;
+    color: #fff;
+    text-transform: uppercase;
+}
+#orange-cut{
+    position: absolute;
+    top: 9%;
+    left: 32%;
+    width: 15%;
+    z-index: 1;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1)0.5s;
+}
+#orange{
+    width: 20%;
+    position: absolute;
+    z-index: 3;
+    top: 55%;
+    right: 30%;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1)0.5s;
+}
+
+#leaf{
+    position: absolute;
+    width: 18%;
+    top: 10%;
+    left: 0%;
+    transform: rotate(60deg);
+    transition: all cubic-bezier(0.19, 1, 0.22, 1)0.5s;
+}
+#leaf2{
+    position: absolute;
+    width: 12%;
+    top: 60%;
+    left: 80%;
+    transform: rotate(-90deg);
+    transition: all cubic-bezier(0.19, 1, 0.22, 1)0.5s;
+}
+#coco-leaf{
+    position: absolute;
+    width: 20%;
+    top: 10%;
+    right: 0;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1)0.5s;
+}
+
+.two{
+    width: 100%;
+    height: 100vh;
+    background-color: #d38f36;
+    display: flex;
+
+}
+
+.left-two,.right{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content:center;
+    /* background-color: rgb(120, 207, 120); */
+    flex-direction: column;
+    gap: 5vw;
+}
+.left-two svg{
+    /* background-color: ; */
+    transform: rotateX(50deg);
+    width: 90%;
+    margin-top: 50vh;
+}
+.right h1{
+    color: #fff; 
+    font-size: 5vw;
+
+}
+.right p{
+    font-size: 1vw;
+    color: #fff;
+    width: 80%;
+}
+.three{
+    width: 100%;
+    height: 100vh;
+    background:linear-gradient(150deg, rgb(255, 166, 0), rgb(255, 94, 0));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5vw;
+    position: relative;
+}
+
+
+
+.card{
+    width: 23vw;
+    height: 70vh;
+    margin-top: 10vh;
+    background-color: #fff;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2vh;
+}
+.card h1{
+    font-size: 3vw;
+    margin-top: 40vh;
+}
+.card button{
+    padding: 1vw 2vw;
+    font-size: 1vw;
+    border-radius: 50px;
+    border: none;
+    background-color: orange;
+    color: #fff;
+}
+#cococola{
+    position: absolute;
+    width: 12%;
+    top: 13%;
+}
+#pepsi{
+    position: absolute;
+    width: 17%;
+    top: 10%;
+}
+.l{
+    width:25vw;
+    position: absolute;
+    top: -7%;
+}
